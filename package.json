@@ -1,0 +1,18 @@
+{
+  "name": "fokus-hq",
+  "version": "1.0.0",
+  "description": "Internal project & task tracking dashboard for fokus and its three companies",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --env-file=.env server.js",
+    "dev": "node --env-file=.env --watch server.js"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^7.1.0"
+  }
+}
